@@ -1,3 +1,8 @@
+export const config = {
+  runtime: "nodejs18.x",
+  regions: ["fra1", "cdg1", "arn1"]
+};
+
 export default async function handler(req, res) {
   try {
     const tgt = req.query.tgt;
